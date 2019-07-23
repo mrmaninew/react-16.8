@@ -11,6 +11,7 @@ class Person extends Component {
     this.inputElementRef = React.createRef();
   }
 
+  // static to be for context
   static contextType = AuthContext;
 
   componentDidMount() {
